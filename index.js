@@ -11,3 +11,8 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
     res.send("Jayasankar");
 });
+
+
+app.get("/name/",(req,res)=>{
+    res.send("My name is Devagani Jayasankar");
+});
